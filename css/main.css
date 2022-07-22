@@ -750,9 +750,14 @@ body{
     height: 351px;
     width: 344px;
     background: #FFFFFF;
-    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    /* box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06); */
     border-radius: 15px;
     margin-right: 30px;
+  }
+
+  .services-list-item:hover{
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    transition: 0.4s ease ;
   }
   
   .services-list-item:last-child{
@@ -808,3 +813,5 @@ body{
     margin-bottom: 126px;
   }
   /* // OUR SERVICES */
+
+  
