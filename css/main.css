@@ -704,3 +704,107 @@ body{
     transition: 0.2s ease all;  
 }
 /* // CONTACT US part */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  OUR SERVICES */
+.our-services-heading{
+    padding-top: 122px;
+    text-align: center;
+    color: #373737;
+    font-weight: 700;
+    font-size: 37px;
+  }
+  
+  .our-services-text{
+    color: #7D7D7D;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+  }
+  
+  .services-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .services-list-item{
+    padding: 29px 17px 30px 31px ;
+    height: 351px;
+    width: 344px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    margin-right: 30px;
+  }
+  
+  .services-list-item:last-child{
+    margin-right: 0;
+  }
+  
+  .services-list-item-heading{
+    color: #37474F;
+    
+  }
+  
+  /* .services-list-item-heading::before{
+    content: '';
+    height: 76px;
+    width: 76px;
+    background-color: #717CFF;
+    display: block;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  } */
+  
+  .services-list-heading-red::before{
+    content: '';
+    background: #FF5959;
+    background-image: url(../images/facebook-footer.png);
+  }
+  
+  .services-list-item-paraghraph{
+    margin-top: 9px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(55, 71, 79, 0.721569);
+  }
+  
+  .services-list-learn-more{
+    text-decoration: none;
+    color: #717CFF;
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 25px;
+    padding-bottom: 34px;
+  }
+  
+  /* .services-list-accomodation{
+    margin-top: 56px;
+    margin-bottom: 126px;
+  } */
+  
+  .services-list-departure{
+    margin-top: 56px;
+    margin-bottom: 126px;
+  }
+  /* // OUR SERVICES */
